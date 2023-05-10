@@ -5,7 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Gestión de inventarios
+    
+    figure
+      img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in-up")
 
 </template>
 

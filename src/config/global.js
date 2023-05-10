@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Sistema de control y registro de inventarios',
+    descripcionCurso:
+      'Es importante llevar un sistema de inventario permanente (revisión física del stock) en farmacias y servicios farmacéuticos. Existe una preocupación sobre la disponibilidad de productos farmacéuticos para satisfacer la demanda de los clientes, sin embargo, es importante establecer un stock óptimo, manteniendo así la rentabilidad del negocio, además de pensar en la complacencia de las necesidades reales de sus clientes.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -31,27 +40,75 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistemas de información en el control de inventarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Registros contables de inventario',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión de inventarios',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Clases de inventarios',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Rotación del inventario',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Indicadores de gestión del inventario',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Toma de inventario físico',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Métodos de evaluación de inventarios',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Sistemas de reposición de inventarios',
+            hash: 't_3_6',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Herramientas operativas para el control de inventarios',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Ley de Pareto o Método ABC',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Sistema VEN',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Documentación proceso de inventarios',
         desarrolloContenidos: true,
       },
     ],
@@ -97,32 +154,88 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Gestión de inventarios',
+      referencia:
+        'Resolución 1403 de 2007. [Ministerio de la Protección Social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. Mayo 14 de 2007.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo4_CF018_Resolución_1403_de_2007.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Gestión de inventarios',
+      referencia:
+        'Decreto 780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. Mayo 6 de 2016.',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo5_CF018_Decreto_780_de_2016_Sector_Salud_y_Protección_Social.pdf',
+    },
+    {
+      tema: 'Gestión de inventarios',
+      referencia:
+        'Resolución 2955 de 2007. [Ministerio de la Protección Social]. Por la cual se modifican algunos numerales del Manual de Condiciones Esenciales y Procedimientos del Servicio Farmacéutico, adoptado mediante Resolución 1403 de 2007 y se dictan otras disposiciones. Agosto 27 de 2007.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo3_CF018_Resolución_2955_de_2007.pdf',
+    },
+    {
+      tema: 'Métodos de evaluación de inventarios',
+      referencia:
+        'Contador Contado. (2018). Métodos de Inventario PEPS, UEPS, y Promedio.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=JLB3KXGqXDc',
+    },
+    {
+      tema: 'Métodos de evaluación de inventarios',
+      referencia:
+        'Rusbel 1507. (2015). PEPS método de valuación (Caso práctico).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Qv5Kh_LLSYs',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Capital',
+      significado:
+        'en economía, se entiende por capital un componente material de la producción, básicamente constituido por maquinaria, utillaje o instalaciones, que, en combinación con otros factores, como el trabajo, materias primas y los bienes intermedios, permite crear bienes de consumo.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Flujo',
+      significado:
+        'es el sistema de métodos de control únicos que las empresas utilizan para regular la actividad de los productos dentro de sus operaciones. Este proceso abarca desde fabricantes que aprovisionan materias primas hasta minoristas que almacenan productos terminados.',
+    },
+    {
+      termino: 'Indicador',
+      significado:
+        'herramienta para medir el grado de cumplimiento con los objetivos propuestos.',
+    },
+    {
+      termino: 'Logística',
+      significado:
+        'conjunto de medios y métodos necesarios para llevar a cabo la organización de una empresa, o de un servicio, especialmente de distribución.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado:
+        'conjunto de bienes tangibles e intangibles, derechos y obligaciones futuras',
+    },
+    {
+      termino: 'RFID',
+      significado: 'identificación por radiofrecuencia.',
+    },
+    {
+      termino: 'VEN',
+      significado: 'Vitales, Esenciales, No esenciales.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Vega, D. (2019). 3 herramientas que facilitan el control de inventarios. ClickBalance.',
+      link:
+        'https://clickbalance.com/blog/nichos/3-herramientas-que-facilitan-el-control-de-inventarios',
+    },
+    {
+      referencia: 'Tecnipesa. (s. f.). Trazabilidad farmacéutica.',
+      link:
+        'https://www.tecnipesa.com/soluciones/trazabilidad-producto/trazabilidad-farmaceutica',
     },
   ],
   creditos: [
