@@ -104,13 +104,59 @@
     p.mt-5.text-center.fw-bold(data-aos="fade-up") Se puede clasificar en tres categorías:
     
     .col-lg-10.m-auto.mt-5
-      ImagenInfografica.color-secundario
+      ImagenInfografica.color-primario
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema4/7.svg' data-aos="zoom-in-up")
-        .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="")
-          .h5.mb-2 titulo
-          p
+        .tarjeta.color-acento-botones.p-3(x="64.7%" y="27%" numero="" style="border-radius:25px;border:2px #8628A5 solid;background-color:#fff;")
+          .h5.mb-2(style="color:#8628A5;") Categoría A
+          p.mb-0(style="color:#000;") Requiere mayor vigilancia, ya que es la que concentra el mayor valor del stock, con lo que los registros deben ser exactos, completos y detallados. Se suele realizar inventario de forma periódica, unidad por unidad, para evitar errores. #[strong(style="color:#000;") Medicamentos o productos farmacéuticos muy importantes desde el punto de vista económico.]
+        .tarjeta.color-acento-botones.p-3(x="64.7%" y="52.5%" numero="" style="border-radius:25px;border:2px #8628A5 solid;background-color:#fff;")
+          .h5.mb-2(style="color:#8628A5;") Categoría B
+          p.mb-0(style="color:#000;") Requiere menor control por parte de la empresa, ya que rota menos, por lo que se suele actualizar el inventario por lotes, no por unidad. #[strong(style="color:#000;") Medicamentos o productos farmacéuticos moderadamente importantes desde el punto de vista económico.]
+        .tarjeta.color-acento-botones.p-3(x="64.7%" y="78.5%" numero="" style="border-radius:25px;border:2px #8628A5 solid;background-color:#fff;")
+          .h5.mb-2(style="color:#8628A5;") Categoría C
+          p.mb-0(style="color:#000;") El control de este #[em(style="color:#000;") stock] es sencillo porque apenas rota y, con el simple recuento visual de las cajas, se revisa el inventario. #[strong(style="color:#000;") Medicamentos o productos farmacéuticos poco importantes desde el punto de vista económico.]
+    
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_4_2 4.2 Sistema VEN
+
+    p(data-aos="fade-up") El sistema VEN (Vitales, Esenciales y No esenciales) es otro sistema de control y manejo de inventarios de medicamentos esenciales en establecimientos y servicios farmacéuticos, el cual tiene gran aplicabilidad en momentos donde la institución o establecimiento no dispone del recurso económico para realizar la totalidad de la compra, por lo cual su importancia radica en la posibilidad que da de realizar de forma apropiada la priorización de la compra de cada producto. 
+
+    .row.mt-5
+      .col-lg.mb-4.mb-lg-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#81D4FA;border:4px white solid;box-shadow:0px 0px 20px rgba(0,0,0,.2);")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 Vitales
+              p Son medicamentos imprescindibles, por lo cual su inexistencia puede ocasionar graves consecuencias para los pacientes. Compromete la atención idónea, por lo tanto, la vida de los pacientes. Ocasionan recaídas, incapacidad laboral e incapacidad permanente.
+              p.mt-4 Ejemplo:  Adrenalina sol. inyectable, dinitrato de isosorbide 5 mg tableta sublingual, oxígeno.
+            .tarjeta-slide__img.d-flex.align-items-center.justify-content-center
+              figure.col-10.m-auto
+                img(src="@/assets/curso/tema4/8.svg" style="max-height:400px;")
+      .col-lg.mb-4.mb-lg-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#C3F8FF;border:4px white solid;box-shadow:0px 0px 20px rgba(0,0,0,.2);")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 Esenciales o menos vitales
+              p Su inexistencia o poca existencia no es tan grave como los primeros, pero aun así puede provocar incapacidades transitorias o limitantes en algunos casos. La frecuencia y gravedad de las enfermedades es menor que la del grupo de los vitales. 
+              p.mt-4 Ejemplo: Paracetamol 500 mg tabletas, naproxeno 250 mg tabletas, betametasona 4 mg sol. inyectable. 
+            .tarjeta-slide__img.d-flex.align-items-center.justify-content-center(style="background-color:#C3F8FF;")
+              figure.col-10.m-auto
+                img(src="@/assets/curso/tema4/9.svg" style="max-height:400px;")
+      .col-lg.mb-4.mb-lg-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#CBBFF4;border:4px white solid;box-shadow:0px 0px 20px rgba(0,0,0,.2);")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 No esenciales
+              p Su inexistencia o poca existencia no provoca mayores consecuencias negativas o agravamiento de los problemas de salud.  Son medicamentos mínimamente indispensables, de acuerdo con la poca frecuencia y gravedad de las enfermedades para las cuales están indicados. 
+              p.mt-4 Ejemplo: Tinidazol 1 gr tabletas, betametasona 1 % crema, multivitamínicos polvos orales.
+            .tarjeta-slide__img.d-flex.align-items-center.justify-content-center(style="background-color:#CBBFF4;")
+              figure.col-10.m-auto
+                img(src="@/assets/curso/tema4/10.svg" style="max-height:400px;")
 
 
 
@@ -123,7 +169,7 @@ export default {
   name: 'Tema4',
   components: {},
   data: () => ({
-    // variables de vue
+    indicadorTarjetaSlide: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -150,4 +196,6 @@ export default {
   color: #fff
 .tabs-a__tab
   background-color: #F6F6F6
+.img-infografica__item__dot:before
+  background-color: transparent !important
 </style>
