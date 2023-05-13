@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139.141" height="197.734" viewBox="0 0 139.141 197.734">
+  <defs>
+    <filter id="Trazado_719945" x="0" y="0" width="139.141" height="197.734" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Trazado_719945)">
+    <path id="Trazado_719945-2" data-name="Trazado 719945" d="M252.49,160.729H182.178v47.852H264.7V238H145.557V60.266h118.9V89.929H182.178v42.358H252.49Z" transform="translate(-135.56 -53.27)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 4"/>
+  </g>
+</svg>
