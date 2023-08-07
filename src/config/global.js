@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Sistema de control y registro de inventarios',
     descripcionCurso:
-      'Es importante llevar un sistema de inventario permanente (revisión física del stock) en farmacias y servicios farmacéuticos. Existe una preocupación sobre la disponibilidad de productos farmacéuticos para satisfacer la demanda de los clientes, sin embargo, es importante establecer un stock óptimo, manteniendo así la rentabilidad del negocio, además de pensar en la complacencia de las necesidades reales de sus clientes.',
+      'Es importante llevar un sistema de inventario permanente (revisión física del <em>stock</em>) en farmacias y servicios farmacéuticos. Existe una preocupación sobre la disponibilidad de productos farmacéuticos para satisfacer la demanda de los clientes, sin embargo, es importante establecer un <em>stock</em> óptimo, manteniendo así la rentabilidad del negocio, además de pensar en la complacencia de las necesidades reales de sus clientes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -222,7 +222,7 @@ export default {
     },
     {
       termino: 'VEN',
-      significado: 'Vitales, Esenciales, No esenciales.',
+      significado: ' Vitales, Esenciales, No esenciales.',
     },
   ],
   referencias: [

@@ -19,7 +19,7 @@
             img(src="@/assets/curso/tema3/2.png")
             .cont_image1__description.p-3
               h5.text-white Inventario
-              p.mb-0.text-white Listado ordenado y valorado de productos y/o materia prima de la empresa.
+              p.mb-0.text-white Listado ordenado y valorado de productos o materia prima de la empresa.
       .col-xl.mb-4.mb-xl-0
         .h-100
           figure.cont_image1
@@ -83,7 +83,7 @@
         ul.lista-ul.mb-0.mt-4
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#7E5EE3;")
-            | Mantener los stocks de seguridad, reduciendo riesgos.
+            | Mantener los #[em stocks] de seguridad, reduciendo riesgos.
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#7E5EE3;")
             | Programar la adquisición de materia prima e insumos para una producción efectiva y eficiente, generando reducción en los costos.
@@ -103,7 +103,7 @@
               p.mb-0(data-aos="fade-up") #[strong La realización de inventarios y #[em stock]] es la forma más simple de gestionar las necesidades de cada uno de los productos en existencia, y con base en lo anterior, se realizan los pedidos de los productos en cantidades y tiempos.
     
     .cajon.color-acento-contenido.p-4.mt-5(style="background-color:#DCFBFF;")
-      p.mb-0(data-aos="fade-up") A través de la contabilidad de la empresa, se realiza el inventario, como resultado de las entradas y salidas de los bienes y/o servicios que maneja la empresa. Sin embargo, dependiendo del tiempo estipulado por los encargados de la administración de la empresa, los inventarios se realizan de acuerdo con el tipo y requerimiento del proceso de contabilidad de esta.
+      p.mb-0(data-aos="fade-up") A través de la contabilidad de la empresa, se realiza el inventario, como resultado de las entradas y salidas de los bienes o servicios que maneja la empresa. Sin embargo, dependiendo del tiempo estipulado por los encargados de la administración de la empresa, los inventarios se realizan de acuerdo con el tipo y requerimiento del proceso de contabilidad de esta.
     
     Separador.mt-5
 
@@ -166,7 +166,7 @@
           li(data-aos="fade-up")
             .lista-ol--cuadro__vineta(style="background-color:#7E5EE3;")
               span 2
-            | #[strong Segundo inventario:] existencias que deben estar a mano en caso de que exista desequilibrio en la demanda. Es también llamado inventario o stock de seguridad.
+            | #[strong Segundo inventario:] existencias que deben estar a mano en caso de que exista desequilibrio en la demanda. Es también llamado inventario o #[em stock] de seguridad.
           li(data-aos="fade-up")
             .lista-ol--cuadro__vineta(style="background-color:#7E5EE3;")
               span 3
@@ -245,7 +245,7 @@
     .row
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Es el modo que se utiliza para conocer cómo ha sido el movimiento de los productos en números. Estos se pueden medir dividiendo las ventas totales entre el número de producto que se tiene en existencias. 
-        p.mt-4(data-aos="fade-up") Existen diversos indicadores que sirven para el perfeccionamiento de la gestión de inventarios y stock, lo cual ayuda a una mejor toma de decisiones administrativas para el continuo mejoramiento de los procesos.
+        p.mt-4(data-aos="fade-up") Existen diversos indicadores que sirven para el perfeccionamiento de la gestión de inventarios y #[em stock], lo cual ayuda a una mejor toma de decisiones administrativas para el continuo mejoramiento de los procesos.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") Una óptima organización de los recursos y de la parte operativa de la empresa garantizan un servicio de mayor calidad al menor costo posible.
       .col-lg-5(style="place-self:center;")
@@ -275,7 +275,7 @@
         .row
           .col-lg-8.col-md-7.mb-4.mb-md-0
             h4 Rotura de <em>stock</em>
-            p Se encarga de evidenciar la cantidad de veces que el establecimiento o servicio farmacéutico se ha quedado sin stock y, por ende, no ha podido satisfacer las necesidades de los usuarios o pacientes.
+            p Se encarga de evidenciar la cantidad de veces que el establecimiento o servicio farmacéutico se ha quedado sin #[em stock] y, por ende, no ha podido satisfacer las necesidades de los usuarios o pacientes.
             p.mt-4.text-center.fw-bold Fórmula
             .p-4.bg-white.text-center(style="border-radius:20px;border:1px #00BCD4 solid;box-shadow:0px 0px 20px rgba(0,0,0,.1);")
               .row.col-lg-10.m-auto
@@ -471,7 +471,9 @@
     .titulo-segundo
       h2#t_3_5 3.5 Métodos de evaluación de inventarios
     
-    p(data-aos="fade-up") El inventario físico permite verificar la existencia real de lo que existe en los registros contables digitalizados, además de confirmar la rotación de los productos, bienes o servicios. De esta forma, con el inventario físico, se identifican fácilmente:
+    p(data-aos="zoom-in") El propósito de las metodologías de evaluación de inventarios es establecer el costo que será estipulado a las mercancías vendidas y el costo de las mercancías disponibles al terminar el periodo contable. El método de evaluación debe seleccionarse de acuerdo con las características particulares de la empresa:
+
+    p.mt-4(data-aos="fade-up") El inventario físico permite verificar la existencia real de lo que existe en los registros contables digitalizados, además de confirmar la rotación de los productos, bienes o servicios. De esta forma, con el inventario físico, se identifican fácilmente:
 
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")

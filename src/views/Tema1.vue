@@ -16,7 +16,7 @@
         .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") Los sistemas de control de inventario son herramientas tecnológicas que integran todos los procesos de las labores de inventario de una empresa y responden a la contabilización del patrimonio del negocio, incluidos:
         .col-lg-10.m-auto.mt-4.row
-          .col-lg.mb-4.mb-lg-0
+          .col-lg.col-6.mb-lg-0
             ul.lista-ul
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#7E5EE3;")
@@ -27,7 +27,7 @@
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#7E5EE3;")
                 | Recepción
-          .col-lg.mb-4.mb-lg-0
+          .col-lg.col-6.mb-lg-0
             ul.lista-ul
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#7E5EE3;")
@@ -38,7 +38,7 @@
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#7E5EE3;")
                 | Seguimiento
-          .col-lg.mb-4.mb-lg-0
+          .col-lg.col-6.mb-lg-0
             ul.lista-ul
               li(data-aos="fade-up")
                 i.fas.fa-atom(style="color:#7E5EE3;")
@@ -55,14 +55,14 @@
               p La empresa no afecta la cuenta de inventarios a lo largo del año contable, solo usa la cuenta de compra de mercancías, y al finalizar el año, realiza un inventario físico de las existencias; con este dato podrá realizar una operación simple para obtener el costo de las mercancías vendidas durante el año: Inventario inicial + compras - inventario final. Las devoluciones de las mercancías compradas se contabilizan en la cuenta de compras; mientras que las ventas se contabilizan en las cuentas de ingresos. El sistema de inventario periódico es también llamado inventario físico.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/4.png')
+                img(src='@/assets/curso/tema1/4.svg')
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4 Sistema permanente
               p Sistema contable de inventarios de costos de compras y costo de ventas, de esta manera, se conocerá realmente el costo de las mercancías y el saldo del inventario. El sistema permanente o perpetuo se realiza mediante el kárdex, donde se lleva el registro de cada unidad, su valor de compra, la fecha de adquisición, el valor de la salida de cada unidad y la fecha en que se retira del almacén para su venta o salida de la empresa.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/5.png')
+                img(src='@/assets/curso/tema1/5.svg')
     
     p.mt-5.fw-bold.text-center(data-aos="fade-up") El sistema de inventarios está conformado por los siguientes elementos:
           
@@ -92,7 +92,7 @@
       .tarjeta.color-acento-botones.p-4(titulo="Nivel de servicio")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-            p La gestión del #[em stock] influye directamente en la calidad del servicio. Esto demuestra que, por la ruptura de un stock, la demanda queda insatisfecha y posiblemente el consumidor busque el producto con la competencia. Tener un buen nivel de servicio significa que el cliente tenga el artículo o producto en el momento en que lo necesita. Por lo anterior, un nivel de servicio alto significa mayores costos de almacenamiento y pedido. Para calcular el nivel del servicio, se utiliza la siguiente fórmula:
+            p La gestión del #[em stock] influye directamente en la calidad del servicio. Esto demuestra que, por la ruptura de un #[em stock], la demanda queda insatisfecha y posiblemente el consumidor busque el producto con la competencia. Tener un buen nivel de servicio significa que el cliente tenga el artículo o producto en el momento en que lo necesita. Por lo anterior, un nivel de servicio alto significa mayores costos de almacenamiento y pedido. Para calcular el nivel del servicio, se utiliza la siguiente fórmula:
             ul.fa-ul.mt-4
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
@@ -155,7 +155,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/13.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema1/13.png" data-aos="fade-right")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") El uso de las Tecnologías de la Información (TI) tiene grandes ventajas, siendo una de las principales la generación de competitividad.
         p.mt-4(data-aos="fade-up") Los clientes son cada vez más exigentes al momento de adquirir los productos, por eso las TI son una de las herramientas más eficientes y eficaces en el momento del manejo de inventarios, debido a que:
@@ -177,7 +177,7 @@
             | Brindan disponibilidad de la información de manera inmediata y actualizada.
           li(data-aos="fade-up")
             i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-            | Evitan los desabastecimientos o sobre stock de los productos.
+            | Evitan los desabastecimientos o sobre #[em stock] de los productos.
         p.mt-4(data-aos="fade-up") Los dos tipos de tecnologías de la información más usadas son:
         ul.fa-ul.mt-3
           li(data-aos="fade-up")
@@ -198,7 +198,7 @@
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         .cajon.color-acento-contenido.p-4(style="background-color:#DCFBFF;")
-          p.mb-0(data-aos="fade-up") Es un sistema de almacenamiento y recuperación de datos remoto, que utiliza dispositivos denominados etiquetas, tarjetas, transpondedores o tags RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas auto ID (identificación automática).
+          p.mb-0(data-aos="fade-up") Es un sistema de almacenamiento y recuperación de datos remoto, que utiliza dispositivos denominados etiquetas, tarjetas, transpondedores o #[em tags] RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas auto ID (identificación automática).
         p.mt-4(data-aos="fade-up") Actualmente, la tecnología más utilizada en las empresas y negocios del sector farmacéutico para la identificación de los productos farmacéuticos es la de códigos de barras, los cuales presentan desventajas, como son la imposibilidad de ser reprogramados, generan un mayor costo y un reproceso, mientras que las etiquetas RFID contienen dispositivos especiales que permiten recibir y responder por radiofrecuencia desde un emisor-receptor, son dispositivos pequeños (similares a una etiqueta adhesiva) que pueden adherirse al empaque o caja de un producto.
       .col-lg-4(style="place-self:center;")
         figure
@@ -261,7 +261,7 @@ export default {
 .cont_1_2:before
   content: ''
   position: absolute
-  width: 100%
+  width: 125%
   left: -15%
   top: 0
   height: 100%
