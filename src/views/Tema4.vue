@@ -10,7 +10,7 @@
     .row
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/1.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema4/1.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-5(style="place-self:center;")
         .cajon.color-acento-contenido.p-4(style="background-color:#DCFBFF;")
           p.mb-0(data-aos="fade-up") Tanto el gerente como el encargado del almacén priorizan su gestión en mantener el inventario al 100 %, sin embargo, muchas veces el tiempo no alcanza o el personal es insuficiente.
@@ -37,14 +37,14 @@
                 | Reporte de movimientos del inventario.
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/2.svg')
+              img(src='@/assets/curso/tema4/2.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Personal")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
             p Cualificado y responsable para realizar el proceso de inventario bien estructurado y supervisado.
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/3.svg')
+              img(src='@/assets/curso/tema4/3.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Infraestructura logística ")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -64,14 +64,14 @@
                 | Estibas
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/4.svg')
+              img(src='@/assets/curso/tema4/4.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Infraestructura tecnológica")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
             p Desarrollo o adquisición de un #[em software] en la nube de gestión de inventario; escáner para la lectura de códigos de barra de los productos y la contabilización del inventario; de esta manera, se puede hacer el conteo de miles de productos en tan solo unas horas.
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/5.svg')
+              img(src='@/assets/curso/tema4/5.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Beneficios")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -90,7 +90,7 @@
                 | Mejorar el proceso comercial y ahorrar tiempo al integrar cada una de las áreas involucradas en este proceso.
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema4/6.svg')
+              img(src='@/assets/curso/tema4/6.svg' alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -107,7 +107,7 @@
       ImagenInfografica.color-primario
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema4/7.svg' data-aos="zoom-in-up")
+            img(src='@/assets/curso/tema4/7.svg' data-aos="zoom-in-up" alt="Imagen decorativa")
         .tarjeta.color-acento-botones.p-3(x="64.7%" y="27%" numero="" style="border-radius:25px;border:2px #8628A5 solid;background-color:#fff;")
           .h5.mb-2(style="color:#8628A5;") Categoría A
           p.mb-0(style="color:#000;") Requiere mayor vigilancia, ya que es la que concentra el mayor valor del #[em(style="color:#000;") stock], con lo que los registros deben ser exactos, completos y detallados. Se suele realizar inventario de forma periódica, unidad por unidad, para evitar errores. #[strong(style="color:#000;") Medicamentos o productos farmacéuticos muy importantes desde el punto de vista económico.]
@@ -135,7 +135,7 @@
               p.mt-4 Ejemplo:  Adrenalina sol. inyectable, dinitrato de isosorbide 5 mg tableta sublingual, oxígeno.
             .tarjeta-slide__img.d-flex.align-items-center.justify-content-center
               figure.col-10.m-auto
-                img(src="@/assets/curso/tema4/8.svg" style="max-height:200px;")
+                img(src="@/assets/curso/tema4/8.svg" style="max-height:200px;" alt="Imagen decorativa")
       .col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#C3F8FF;border:4px white solid;box-shadow:0px 0px 20px rgba(0,0,0,.2);")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -146,7 +146,7 @@
               p.mt-4 Ejemplo: Paracetamol 500 mg tabletas, naproxeno 250 mg tabletas, betametasona 4 mg sol. inyectable. 
             .tarjeta-slide__img.d-flex.align-items-center.justify-content-center(style="background-color:#C3F8FF;")
               figure.col-10.m-auto
-                img(src="@/assets/curso/tema4/9.svg" style="max-height:200px;")
+                img(src="@/assets/curso/tema4/9.svg" style="max-height:200px;" alt="Imagen decorativa")
       .col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#CBBFF4;border:4px white solid;box-shadow:0px 0px 20px rgba(0,0,0,.2);")
           .tarjeta-slide__contenedor
@@ -156,7 +156,7 @@
               p.mt-4 Ejemplo: Tinidazol 1 gr tabletas, betametasona 1 % crema, multivitamínicos polvos orales.
             .tarjeta-slide__img.d-flex.align-items-center.justify-content-center(style="background-color:#CBBFF4;")
               figure.col-10.m-auto
-                img(src="@/assets/curso/tema4/10.svg" style="max-height:200px;")
+                img(src="@/assets/curso/tema4/10.svg" style="max-height:200px;" alt="Imagen decorativa")
 
 
 

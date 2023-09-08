@@ -8,7 +8,7 @@
       h1 Gestión de inventarios
     
     figure
-      img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in-up" alt="Imagen decorativa")
 
     p.mt-5(data-aos="fade-up") Se debe tener en cuenta que, en lo concerniente a inventarios, se encuentran una serie de conceptos y términos que se pueden llegar a confundir. Ellos abarcan lo mismo, pero con calidades diferentes, como se presenta a continuación:
 
@@ -16,7 +16,7 @@
       .col-xl.mb-4.mb-xl-0
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema3/2.png")
+            img(src="@/assets/curso/tema3/2.png" alt="Imagen decorativa")
             .cont_image1__description.p-3
               h5.text-white Inventario
               p.mb-0.text-white Listado ordenado y valorado de productos o materia prima de la empresa.
@@ -24,14 +24,14 @@
         .h-100
           figure.cont_image1
             .indicador--click(v-if="mostrarIndicador")
-            img(src="@/assets/curso/tema3/3.png")
+            img(src="@/assets/curso/tema3/3.png" alt="Imagen decorativa")
             .cont_image1__description.p-3
               h5.text-white #[em Stock]
               p.mb-0.text-white Bienes o productos de la empresa que necesitan ser almacenados para la posterior venta o incorporación al proceso de fabricación.
       .col-xl.mb-4.mb-xl-0
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema3/4.png")
+            img(src="@/assets/curso/tema3/4.png" alt="Imagen decorativa")
             .cont_image1__description.p-3
               h5.text-white Existencia
               p.mb-0.text-white Activos que adquiere la empresa para ser vendidos en el curso normal de la explotación, en el proceso de producción, o en forma de materiales o suministros para ser consumidos en la prestación del servicio.
@@ -42,7 +42,7 @@
       .row
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema3/6.png" data-aos="fade-right")
+            img(src="@/assets/curso/tema3/6.png" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-8(style="place-self:center;")
           ul.lista-ul.mb-0
             li(data-aos="fade-up")
@@ -72,10 +72,10 @@
         p.mb-0(data-aos="fade-up") Los bienes de una empresa deben ser ordenados y descritos de acuerdo con las características de cada artículo o producto, también llamados mercancías; deben estar agrupados por su valor o similitud, porque forman parte del patrimonio o capital de la empresa. Todo inventario depende directamente de dos procesos que deben estar previamente bien establecidos en la empresa:
       .col-lg-3.col-md-4.mb-4.mb-md-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/7.svg" data-aos="fade-up")
+          img(src="@/assets/curso/tema3/7.svg" data-aos="fade-up" alt="Imagen decorativa")
       .col-lg-3.col-md-4.mb-4.mb-md-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/8.svg" data-aos="fade-up")
+          img(src="@/assets/curso/tema3/8.svg" data-aos="fade-up" alt="Imagen decorativa")
     
     .row.mt-5
       .col-lg-6.mb-4.mb-lg-0
@@ -98,7 +98,7 @@
           .row
             .col-lg-3.mb-md-0.mb-4.col-md-5
               figure
-                img(src="@/assets/curso/tema3/10.svg" data-aos="fade-up")
+                img(src="@/assets/curso/tema3/10.svg" data-aos="fade-up" alt="Imagen decorativa")
             .col-lg-9.col-md-7
               p.mb-0(data-aos="fade-up") #[strong La realización de inventarios y #[em stock]] es la forma más simple de gestionar las necesidades de cada uno de los productos en existencia, y con base en lo anterior, se realizan los pedidos de los productos en cantidades y tiempos.
     
@@ -150,7 +150,7 @@
         h5.d-block Figura 3
         span Modelo de inventario
       figure.mt-4
-        img(src="@/assets/curso/tema3/12.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema3/12.svg" data-aos="zoom-in-up" alt="Imagen que representa el modelo de inventario, la cual contiene la siguiente información: Existencias Pedido óptimo = Q Emisión de pedido Plazo de aprovisionamiento Recepción física de pedido Punto de pedido Stock de seguridad Tiempo")
         figcaption.fw-normal.text-center.mt-3.p-4(style="background-color:#E8E8E8;") Nota. Tomada de #[a(target="_blank" style="color:#7E5EE3;" href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186Página 25") https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186Página 25]
 
     p.mt-5(data-aos="fade-up") Para el logro de los objetivos de la empresa, es importante priorizar el inventario de materias primas y el inventario final o de producto terminado; por esta razón, la estructura del inventario es directamente proporcional al tamaño de la empresa, debido a que el proceso de verificación de la cantidad de productos se especificará en el marco de la cadena de adquisición y suministro del negocio.
@@ -187,7 +187,7 @@
             | La eficiencia operativa.
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/13.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/13.png" data-aos="fade-left" alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -250,7 +250,7 @@
           p.mb-0(data-aos="fade-up") Una óptima organización de los recursos y de la parte operativa de la empresa garantizan un servicio de mayor calidad al menor costo posible.
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/14.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/14.png" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") Existen tres indicadores importantes de inventarios, que son:
 
@@ -270,7 +270,7 @@
                   p.mb-0 #[em Valor promedio de existencias]
           .col-md-5.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/18.png')
+              img(src='@/assets/curso/tema3/18.png' alt="Imagen decorativa")
       .py-4.py-md-5.p-4(titulo="Rotura de <em>stock</em>" :icono="require('@/assets/curso/tema3/16.png')")
         .row
           .col-lg-8.col-md-7.mb-4.mb-md-0
@@ -288,7 +288,7 @@
                   p.mb-0 X 100
           .col-md-5.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/19.png')
+              img(src='@/assets/curso/tema3/19.png' alt="Imagen decorativa")
       .py-4.py-md-5.p-4(titulo="Contracción de inventario" :icono="require('@/assets/curso/tema3/17.png')")
         .row
           .col-lg-8.col-md-7.mb-4.mb-md-0
@@ -304,7 +304,7 @@
                   p.mb-0 #[em Stock que debería haber]
           .col-md-5.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/20.png')
+              img(src='@/assets/curso/tema3/20.png' alt="Imagen decorativa")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") En la siguiente imagen, se presentan los pasos del proceso de planificación y organización de inventarios:
 
@@ -313,7 +313,7 @@
         h5.d-block Figura 4
         span Planificación y organización
       figure.mt-5
-        img(src="@/assets/curso/tema3/21.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema3/21.svg" data-aos="zoom-in-up" alt="Imagen con los pasos de la planificación y organización, los cuales son: Recepción Almacén Movimiento Información")
         figcaption.fw-normal.text-center.mt-3.p-4(style="background-color:#E8E8E8;") Nota. Tomada de Arenal (2020, p. 88)
     
     Separador.mt-5 
@@ -344,7 +344,7 @@
             | Maquinaria obsoleta o en mal estado.
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/22.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/22.png" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") El proceso del inventario físico implica diversas tareas:
 
@@ -403,11 +403,11 @@
             p.mb-0 Productos terminados. 
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/24.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/24.png" data-aos="fade-left" alt="Imagen decorativa")
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/25.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/25.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         p.fw-bold(data-aos="fade-up") Para lo anterior, se hace necesario la utilización de herramientas como:
         .row.p-3(style="border-top:1px #B0C0D2 solid;" data-aos="fade-up")
@@ -455,7 +455,7 @@
             p.mb-0 Ofrece datos reales a la empresa, ayudando a la purga de existencias deterioradas o perdidas.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/26.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/26.png" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") En la siguiente imagen, se muestran algunos de los elementos involucrados en el control de inventarios:
 
@@ -464,7 +464,7 @@
         h5.d-block Figura 5
         span Elementos involucrados en el control de inventarios
       figure.mt-5
-        img(src="@/assets/curso/tema3/27.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema3/27.svg" data-aos="zoom-in-up" alt="Imagen que contiene los elementos involucrados en el control de inventarios, los cuales son: Devoluciones compras Devoluciones ventas Notas débito Mercancías en consignación Salida de mercancías Toma física Responsables Bodega almacén Inventario de consumo Inventario de activos fijos Inventario de devolutivos Costos de mercancías Entradas de mercancías Control de inventarios Materias primas Productos en proceso Productos terminados KÁRDEX Remisión Técnicas de conteo Pérdidas de inventario Método de valuación de inventario PEPS Primero en entrar primero en salir UEPS Último en entrar primero en salir Ponderado=promedio")
     
     Separador.mt-5
 
@@ -484,7 +484,7 @@
           p(numero="4" titulo="Promedio ponderado") Consiste en dividir el valor del saldo entre el número de unidades en existencia. Esta operación se efectuará en cada compra, siempre que haya una modificación del saldo y de existencias. El costo promedio determinado se valuará conforme al costo de venta y al inventario final.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/28.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/28.png" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") Como complemento y profundización, se invita al aprendiz a consultar los siguientes videos ubicados en la sección de material complementario.
 
@@ -509,7 +509,7 @@
       .col-xl.mb-4.mb-xl-0
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema3/29.png")
+            img(src="@/assets/curso/tema3/29.png" alt="Imagen decorativa")
             .cont_image1__description.p-3(style="background-color:#81D4FA;")
               h5 Reposición por demanda
               p.mb-0 Esta se da cuando seleccionan todos los productos que serán despachados durante el día. Normalmente, se utiliza cuando la demanda de pedidos es por tiempos específicos, por ejemplo, las canastillas de medicamentos y dispositivos médicos que se preparan para pacientes de cirugía.
@@ -517,14 +517,14 @@
         .h-100
           figure.cont_image1
             .indicador--click(v-if="mostrarIndicador2")
-            img(src="@/assets/curso/tema3/30.png")
+            img(src="@/assets/curso/tema3/30.png" alt="Imagen decorativa")
             .cont_image1__description.p-3(style="background-color:#81D4FA;")
               h5 Reposición por fractura del #[em stock]
               p.mb-0 Esta se da cuando el inventario llega al nivel mínimo de existencias definido con antelación.
       .col-xl.mb-4.mb-xl-0
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema3/31.png")
+            img(src="@/assets/curso/tema3/31.png" alt="Imagen decorativa")
             .cont_image1__description.p-3(style="background-color:#81D4FA;")
               h5 Reposición de #[em stock “Top Off”]
               p.mb-0 Esta reposición consiste en abastecer las estanterías vacías al mismo tiempo que se están dispensando o distribuyendo los productos.

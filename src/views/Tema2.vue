@@ -23,19 +23,19 @@
         p.mt-4(data-aos="fade-up") 
       .col-lg-4.mb-4.mb-lg-0.cont_2_1
         figure.pt-3
-          img(src="@/assets/curso/tema2/2.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema2/2.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones
         h5.d-block Figura 1
         span Ciclo financiero a corto plazo en empresas comerciales
       figure.mt-5
-        img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up" alt="Imagen que representa un ciclo financiero, el cual consta de los siguientes aspectos de manera cíclica: Efectivo-Inventarios-Cuentas por cobrar")
     
     .row.mt-5(style="background-color:#E5DFF9;border-radius:25px;")
       .col-lg-3.mb-4.mb-md-0.col-md-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/4.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema2/4.svg" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-9.mb-4.mb-md-0.col-md-7.pt-4.pb-4(style="place-self:center;")
         p.fw-bold.text-center(data-aos="fade-up") El registro contable de inventarios requiere la apertura de las siguientes cuentas:
         .mt-4.row
@@ -80,7 +80,7 @@
         h5.d-block Figura 2
         span Ejemplo tarjeta kárdex
       figure.mt-5
-        img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="Imagen con un formato de ejemplo de una tarjeta Kárdex, el cual contiene la siguiente información: Control de Existencias en el Inventario - EMPRESA _ABC_ Control de Existencias en el Inventario - EMPRESA _ABC_ Producto Cantidad máxima Cantidad mínima Método Fecha Detalle: Concepto - Factura No. Entradas: Cantidad - Valor unitario - Valor total Salidas: Cantidad - Valor unitario - Valor total Saldos: Cantidad - Valor unitario - Valor total Costos")
       
 
 

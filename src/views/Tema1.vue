@@ -11,7 +11,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0.cont_1_1
         figure
-          img(src="@/assets/curso/tema1/2.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema1/2.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") Los sistemas de control de inventario son herramientas tecnológicas que integran todos los procesos de las labores de inventario de una empresa y responden a la contabilización del patrimonio del negocio, incluidos:
@@ -55,14 +55,14 @@
               p La empresa no afecta la cuenta de inventarios a lo largo del año contable, solo usa la cuenta de compra de mercancías, y al finalizar el año, realiza un inventario físico de las existencias; con este dato podrá realizar una operación simple para obtener el costo de las mercancías vendidas durante el año: Inventario inicial + compras - inventario final. Las devoluciones de las mercancías compradas se contabilizan en la cuenta de compras; mientras que las ventas se contabilizan en las cuentas de ingresos. El sistema de inventario periódico es también llamado inventario físico.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/4.svg')
+                img(src='@/assets/curso/tema1/4.svg' alt="Imagen decorativa")
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4 Sistema permanente
               p Sistema contable de inventarios de costos de compras y costo de ventas, de esta manera, se conocerá realmente el costo de las mercancías y el saldo del inventario. El sistema permanente o perpetuo se realiza mediante el kárdex, donde se lleva el registro de cada unidad, su valor de compra, la fecha de adquisición, el valor de la salida de cada unidad y la fecha en que se retira del almacén para su venta o salida de la empresa.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/5.svg')
+                img(src='@/assets/curso/tema1/5.svg' alt="Imagen decorativa")
     
     p.mt-5.fw-bold.text-center(data-aos="fade-up") El sistema de inventarios está conformado por los siguientes elementos:
           
@@ -83,12 +83,12 @@
                 | Costos asociados a la existencia de demanda insatisfecha, situación que se llama #[strong rotura de #[em stock]].
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema1/6.svg')
+              img(src='@/assets/curso/tema1/6.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Demanda")
         .row
           p El comportamiento del inventario de un artículo depende de la demanda del artículo referenciado.
           figure.mt-2
-            img(src='@/assets/curso/tema1/7.svg')
+            img(src='@/assets/curso/tema1/7.svg' alt="Imagen que nombra las características de la demanda de un artículo, las cuales son: Unidad de medida. Frecuencia de los pedidos. Uniformidad de la demanda. Independencia de la demanda. Posibilidad de diferir la demanda insatisfecha. Sistema de distribución física. Calidad de las previsiones.")
       .tarjeta.color-acento-botones.p-4(titulo="Nivel de servicio")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -105,7 +105,7 @@
                 | Es lo mismo que tener una rotura de 15%.
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema1/8.svg')
+              img(src='@/assets/curso/tema1/8.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Plazos")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -128,26 +128,26 @@
                 | Tiempo que transcurre desde la recepción del pedido hasta su disponibilidad.
           .col-lg-4(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema1/9.svg')
+              img(src='@/assets/curso/tema1/9.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Productos")
         .row
           .col-lg-8.mb-4.mb-lg-0
             p Es la mercancía que se controla y manipula en el inventario.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema1/10.svg')
+              img(src='@/assets/curso/tema1/10.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.p-4(titulo="Horizontes de planeación")
         .row
           .col-lg-8.mb-4.mb-lg-0
             p Es el periodo de tiempo para el cual se proyecta el inventario, ya sea a corto, mediano o largo plazo.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema1/11.svg')
+              img(src='@/assets/curso/tema1/11.svg' alt="Imagen decorativa")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Tecnologías para los inventarios
@@ -155,7 +155,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/13.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema1/13.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") El uso de las Tecnologías de la Información (TI) tiene grandes ventajas, siendo una de las principales la generación de competitividad.
         p.mt-4(data-aos="fade-up") Los clientes son cada vez más exigentes al momento de adquirir los productos, por eso las TI son una de las herramientas más eficientes y eficaces en el momento del manejo de inventarios, debido a que:
@@ -190,7 +190,7 @@
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 La identificación por radiofrecuencia (RFID)
@@ -202,12 +202,12 @@
         p.mt-4(data-aos="fade-up") Actualmente, la tecnología más utilizada en las empresas y negocios del sector farmacéutico para la identificación de los productos farmacéuticos es la de códigos de barras, los cuales presentan desventajas, como son la imposibilidad de ser reprogramados, generan un mayor costo y un reproceso, mientras que las etiquetas RFID contienen dispositivos especiales que permiten recibir y responder por radiofrecuencia desde un emisor-receptor, son dispositivos pequeños (similares a una etiqueta adhesiva) que pueden adherirse al empaque o caja de un producto.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/14.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema1/14.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 ¿Qué #[em software] se debe utilizar en el control de inventario? 
@@ -215,7 +215,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/15.svg" data-aos="fade-right")   
+          img(src="@/assets/curso/tema1/15.svg" data-aos="fade-right" alt="Imagen decorativa")   
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") Primero, se debe conocer qué es #[em software]. Se denomina así a todos los elementos que no son físicos, es decir, intangibles que componen un dispositivo electrónico, como los celulares, tabletas y computadoras, y permiten su funcionamiento. El #[em software] es quien guía a la parte física de los dispositivos, denominada #[em hardware].
         .cajon.color-secundario.p-4.mt-4(style="background-color:#E4DDFA;")

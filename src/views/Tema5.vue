@@ -10,7 +10,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema5/1.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema5/1.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") Todo proceso o actividad que se lleve a cabo en el servicio o establecimiento farmacéutico debe documentarse, con el objetivo de estandarizar y, con esto, garantizar que todas las personas que intervienen en estos procesos o actividades las llevarán a cabo de una misma forma.
@@ -46,7 +46,7 @@
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Nombre del proceso o procedimiento
@@ -61,12 +61,12 @@
         h5.d-block Figura 6
         span Estructura encabezado proceso/procedimiento
       figure.mt-4
-        img(src="@/assets/curso/tema5/2.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema5/2.svg" data-aos="zoom-in-up" alt="Imagen con un ejemplo de la estructura encabezado proceso/procedimiento, que consta de la siguiente información: Nombre y/o logo de la droguería INVENTARIO FÍSICO GENERAL Y SELECTIVO EN EL ALMACÉN P-0-010 Cartagena Febrero 2023 Versión: 01 Página 1 de 7")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Objetivo y alcance del procedimiento
@@ -80,20 +80,20 @@
         .col-lg.p-0
           .h-100.p-5(style="background-color:#BAE7FC;border-radius:15px 0px 0px 15px;")
             figure.col-5.m-auto
-              img(src="@/assets/curso/tema5/3.svg" data-aos="zoom-in-up")
+              img(src="@/assets/curso/tema5/3.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
             h4.mt-5.text-center(data-aos="fade-up") Objetivo
             p.mt-4(data-aos="fade-up") Determinar la existencia de los medicamentos, insumos hospitalarios y dispositivos médicos recibidos en #[strong droguería ABC], con el fin de verificar, cotejar y controlar las existencias reales con los registrados en el sistema.
         .col-lg.p-0
           .h-100.p-5(style="background-color:#CBBFF4;border-radius:0px 15px 15px 0px;")
             figure.col-5.m-auto
-              img(src="@/assets/curso/tema5/4.svg" data-aos="zoom-in-up")
+              img(src="@/assets/curso/tema5/4.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
             h4.mt-5.text-center(data-aos="fade-up") Alcance
             p.mt-4(data-aos="fade-up") Este procedimiento aplica para el almacenamiento de medicamentos, insumos hospitalarios y dispositivos médicos recibidos en #[strong droguería ABC].
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Responsables
@@ -116,12 +116,12 @@
             | Director técnico.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema5/5.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema5/5.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Referencias y definiciones
@@ -150,7 +150,7 @@
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Políticas
@@ -194,7 +194,7 @@
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Desarrollo de las actividades
@@ -210,11 +210,11 @@
             p.mb-0(data-aos="fade-right") La gerencia administrativa y financiera programa los inventarios generales para que sean ejecutados para cierre de cada año.
           .col-md-6.text-center(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema5/6.svg" data-aos="fade-left" style="max-width:150px;display:inline;")
+              img(src="@/assets/curso/tema5/6.svg" data-aos="fade-left" style="max-width:150px;display:inline;" alt="Imagen decorativa")
         .row
           .col-md-6.text-center.mb-4.mb-md-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema5/7.svg" data-aos="fade-right" style="max-width:150px;display:inline;")
+              img(src="@/assets/curso/tema5/7.svg" data-aos="fade-right" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             p.mb-0.text-start(data-aos="fade-left") La gerencia administrativa y financiera hará la asignación y nombramiento de las personas involucradas, cada una con sus responsabilidades, y se encargará de la logística del inventario.
         .row
@@ -222,18 +222,18 @@
             p.mb-0(data-aos="fade-right") Se pasará comunicado al personal involucrado en el inventario informando la fecha y duración de este, así como las demás instrucciones que se consideren necesarias.
           .col-md-6.text-center(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema5/8.svg" data-aos="fade-left" style="max-width:150px;display:inline;")
+              img(src="@/assets/curso/tema5/8.svg" data-aos="fade-left" style="max-width:150px;display:inline;" alt="Imagen decorativa")
         .row
           .col-md-6.text-center.mb-4.mb-md-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema5/9.svg" data-aos="fade-right" style="max-width:150px;display:inline;")
+              img(src="@/assets/curso/tema5/9.svg" data-aos="fade-right" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           .col-md-6(style="place-self:center;")
             p.mb-0.text-start(data-aos="fade-left") El jefe de almacén dispondrá y preparará el almacén para la realización del inventario, poniendo mayor énfasis en el orden y la limpieza, y generará el listado actual de inventario y lo pasará a la gerencia administrativa y financiera.
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Registros
@@ -255,12 +255,12 @@
             | F-O-024 Ajustes de inventario.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema5/10.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema5/10.png" data-aos="fade-left" alt="Imagen decorativa")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Flujograma
@@ -275,12 +275,12 @@
         span  Flujograma inventarios
     .col-lg-8.m-auto.mt-4
       figure
-        img(src="@/assets/curso/tema5/11.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema5/11.svg" data-aos="zoom-in-up" alt="Imagen con un ejemplo de un flujograma de inventarios, el cual se representa de la siguiente manera: Verificar stock de MX en PC. Verificar stock físico. ¿Concuerdan las cantidades? Sí Diligenciar formato No Buscar en bodegas, A. cuarentena, vencimiento, etc. Se encuentran los productos Sí Diligenciar formato No Informar al jefe inmediato")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Control de cambios
@@ -290,12 +290,12 @@
     p.mt-5.fw-bold.text-center(data-aos="fade-up") A continuación, se muestra un ejemplo de los elementos a tener en cuenta para registrar los cambios en el documento:
     .col-lg-8.m-auto.mt-4
       figure
-        img(src="@/assets/curso/tema5/12.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema5/12.svg" data-aos="zoom-in-up" alt="Imagen de un formato sobre los elementos a tener en cuenta para registrar los cambios en el documento, el cual debe llevar: Versión Fechas Descripción modificación")
     
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/12.svg")
+          img(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Indicadores
@@ -319,14 +319,14 @@
         p.mt-4(data-aos="fade-up") En la siguiente tabla, se observan algunos ejemplos de indicadores para un servicio o establecimiento farmacéutico, además de un ejemplo de un indicador de inventario con: nombre, fórmula y frecuencia de medición (anual, mensual).
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema5/13.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema5/13.png" data-aos="fade-left" alt="Imagen decorativa")
     
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones
         h5.d-block Tabla 1
         span Ejemplos indicadores
       figure
-        img(src="@/assets/curso/tema5/14.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema5/14.svg" data-aos="zoom-in-up" alt="Imagen que contiene una tabla con un formato de ejemplos de indicadores, la cual tiene la siguiente información: Nombre - Fórmula - Periodicidad Indicadores de actividad Gestión adquisiciones Pedidos - Número de pedidos realizados - Mensual Procedimientos de compras - Número de concursos públicos - Anual Número de procedimientos negociados - Anual Número de especialidad concurso/número total de especialidades - Anual Número de especialidades negociadas/número total de especialidades - Anual Gestión almacenes Inventarios - Número de inventarios totales - Anual  Número de inventarios parciales - Mensual Medicamentos inventariados/total medicamentos - Mensual Caducidades - Número de medicamentos caducados - Mensual Gestión de la información Número de informes a dirección - Trimestral Número de informes a unidades clínicas - Trimestral Número de informes a servicio murciano - Mensual")
 
 
 
