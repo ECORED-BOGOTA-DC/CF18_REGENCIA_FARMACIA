@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Sistema de control y registro de inventarios**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF18_REGENCIA_FARMACIA/#/](https://ecored-bogota-dc.github.io/CF18_REGENCIA_FARMACIA/#/)
 
 #
 
