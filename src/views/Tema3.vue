@@ -471,7 +471,7 @@
     .titulo-segundo
       h2#t_3_5 3.5 Métodos de evaluación de inventarios
     
-    p.mt-4(data-aos="fade-up") El inventario físico permite verificar la existencia real de lo que existe en los registros contables digitalizados, además de confirmar la rotación de los productos, bienes o servicios. De esta forma, con el inventario físico, se identifican fácilmente:
+    p(data-aos="zoom-in") El propósito de las metodologías de evaluación de inventarios es establecer el costo que será estipulado a las mercancías vendidas y el costo de las mercancías disponibles al terminar el periodo contable. El método de evaluación debe seleccionarse de acuerdo con las características particulares de la empresa:
 
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
