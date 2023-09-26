@@ -6,12 +6,10 @@
       .titulo-principal__numero
         span 1
       h1 Sistemas de información en el control de inventarios
-
-    
     .row
       .col-lg-4.mb-4.mb-lg-0.cont_1_1
         figure
-          img.m-auto(src="@/assets/curso/tema1/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
+          img.m-auto(src="@/assets/curso/tema1/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:450px;")
       .col-lg-8(style="place-self:center;")
         .cajon.color-secundario.p-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") Los sistemas de control de inventario son herramientas tecnológicas que integran todos los procesos de las labores de inventario de una empresa y responden a la contabilización del patrimonio del negocio, incluidos:
@@ -45,7 +43,6 @@
                 | Reordenamiento
         p.mt-4(data-aos="fade-up") Por lo general, las empresas que se dedican a la comercialización de productos o bienes de consumo deben llevar un inventario claro y organizado, de forma tal que sea fácil y ágil conocer el estado de este. El desarrollo y la utilización de los sistemas de información en la gestión y control de inventarios permiten acceder a la información rápidamente, lo que resulta útil en la preparación de los productos de consumo que tienen alta demanda, para así poder satisfacer las necesidades y expectativas del consumidor o cliente, sin permitir que la competencia sustituya estas necesidades.
         p.mt-4(data-aos="fade-up") En Colombia, las empresas cuya misión es comercializar artículos o productos utilizan un sistema de inventario periódico o permanente para determinar el costo total de las mercancías vendidas.
-    
     .cont_1_2.mt-5.pt-4.pb-4
       .col-lg-10.m-auto
         SlyderA.slyder1(tipo="b")
@@ -55,17 +52,15 @@
               p La empresa no afecta la cuenta de inventarios a lo largo del año contable, solo usa la cuenta de compra de mercancías, y al finalizar el año, realiza un inventario físico de las existencias; con este dato podrá realizar una operación simple para obtener el costo de las mercancías vendidas durante el año: Inventario inicial + compras - inventario final. Las devoluciones de las mercancías compradas se contabilizan en la cuenta de compras; mientras que las ventas se contabilizan en las cuentas de ingresos. El sistema de inventario periódico es también llamado inventario físico.
             .col-lg-5
               figure
-                img.m-auto(src='@/assets/curso/tema1/4.svg' alt="Imagen decorativa" style="max-width:350px;")
+                img.m-auto(src='@/assets/curso/tema1/4.svg' alt="Imagen decorativa" style="max-width:450px;")
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4 Sistema permanente
               p Sistema contable de inventarios de costos de compras y costo de ventas, de esta manera, se conocerá realmente el costo de las mercancías y el saldo del inventario. El sistema permanente o perpetuo se realiza mediante el kárdex, donde se lleva el registro de cada unidad, su valor de compra, la fecha de adquisición, el valor de la salida de cada unidad y la fecha en que se retira del almacén para su venta o salida de la empresa.
             .col-lg-5
               figure
-                img.m-auto(src='@/assets/curso/tema1/5.svg' alt="Imagen decorativa" style="max-width:350px;")
-    
+                img.m-auto(src='@/assets/curso/tema1/5.svg' alt="Imagen decorativa" style="max-width:450px;")
     p.mt-5.fw-bold.text-center(data-aos="fade-up") El sistema de inventarios está conformado por los siguientes elementos:
-          
     TabsA.color-primario.mt-5
       .tarjeta.color-acento-botones.p-4(titulo="Costos")
         .row
@@ -88,7 +83,7 @@
         .row
           p El comportamiento del inventario de un artículo depende de la demanda del artículo referenciado.
           figure.mt-2
-            img.m-auto(src='@/assets/curso/tema1/7.svg' alt="Imagen que nombra las características de la demanda de un artículo, las cuales son: Unidad de medida. Frecuencia de los pedidos. Uniformidad de la demanda. Independencia de la demanda. Posibilidad de diferir la demanda insatisfecha. Sistema de distribución física. Calidad de las previsiones." style="max-width:350px;")
+            img.m-auto(src='@/assets/curso/tema1/7.svg' alt="Imagen que nombra las características de la demanda de un artículo, las cuales son: Unidad de medida. Frecuencia de los pedidos. Uniformidad de la demanda. Independencia de la demanda. Posibilidad de diferir la demanda insatisfecha. Sistema de distribución física. Calidad de las previsiones." style="max-width:850px;")
       .tarjeta.color-acento-botones.p-4(titulo="Nivel de servicio")
         .row
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -143,7 +138,6 @@
           .col-lg-4
             figure
               img.m-auto(src='@/assets/curso/tema1/11.svg' alt="Imagen decorativa" style="max-width:350px;")
-    
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
@@ -151,7 +145,6 @@
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 Tecnologías para los inventarios
-    
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -186,7 +179,6 @@
           li.d-flex(data-aos="fade-up")
             i.fas.fa-atom(style="color:#7E5EE3;")
             div La tecnología de radiofrecuencia (RFID).
-    
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
@@ -194,7 +186,6 @@
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
           span.ps-2 La identificación por radiofrecuencia (RFID)
-    
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         .cajon.color-acento-contenido.p-4(style="background-color:#DCFBFF;")
@@ -203,15 +194,13 @@
       .col-lg-4(style="place-self:center;")
         figure
           img.m-auto(src="@/assets/curso/tema1/14.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
-    
     .row.mt-5.mb-5.titulo_decorativo1(data-aos="fade-up" style="max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img.m-auto(src="@/assets/curso/tema1/12.svg" alt="Imagen decorativa" style="max-width:350px;")
       .col.p-0(style="place-self:center;")
         h3.mb-0(style="border-bottom:3px #81D4FA solid;") 
-          span.ps-2 ¿Qué #[em software] se debe utilizar en el control de inventario? 
-
+          span.ps-2 ¿Qué #[em software] se debe utilizar en el control de inventario?
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -220,8 +209,6 @@
         p(data-aos="fade-up") Primero, se debe conocer qué es #[em software]. Se denomina así a todos los elementos que no son físicos, es decir, intangibles que componen un dispositivo electrónico, como los celulares, tabletas y computadoras, y permiten su funcionamiento. El #[em software] es quien guía a la parte física de los dispositivos, denominada #[em hardware].
         .cajon.color-secundario.p-4.mt-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") Un buen #[em software] para el control de inventario optimiza la productividad y la eficiencia a lo largo de la cadena de suministro. De esta manera, es mucho más fácil satisfacer las expectativas del cliente, teniendo claridad de las ubicaciones correctas de un producto y sus cantidades.
-
-
       
 </template>
 

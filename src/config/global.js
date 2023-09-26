@@ -265,39 +265,39 @@ export default {
       autores: [
         {
           nombre: 'Emilia Sarmiento Mora',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Regional Antioquia – Centro de Servicios de Salud',
         },
         {
           nombre: 'Lina Marcela Ayala Pardo',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Regional Antioquia – Centro de Servicios de Salud',
         },
         {
           nombre: 'Edwin Amir Moreno Moreno',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro: 'Regional Antioquia – Centro de Servicios de Salud',
         },
         {
           nombre: 'Gustavo Santis Mancipe',
-          cargo: 'Diseñador Instruccional',
+          cargo: 'Diseñador instruccional',
           centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisora Metodológica y Pedagógica',
+          cargo: 'Revisora metodológica y pedagógica',
           centro:
             'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo Desarrollo Curricular',
+          cargo: 'Responsable equipo desarrollo curricular',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Darío González',
-          cargo: 'Corrector de Estilo',
+          cargo: 'Corrector de estilo',
           centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
         },
         {
@@ -317,31 +317,31 @@ export default {
       autores: [
         {
           nombre: 'Eulises Orduz Amézquita',
-          cargo: 'Diseño web-2023',
+          cargo: 'Diseño web - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo fullstack - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
-          cargo: 'Animación y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Animación y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animación y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -358,7 +358,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
