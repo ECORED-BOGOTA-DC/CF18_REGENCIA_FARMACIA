@@ -163,22 +163,24 @@ export default {
       referencia:
         'Resolución 1403 de 2007. [Ministerio de la Protección Social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. Mayo 14 de 2007.',
       tipo: 'PDF',
-      descarga: '/downloads/Anexo4_CF018_Resolución_1403_de_2007.pdf',
+      link:
+        'http://autorregulacion.saludcapital.gov.co/leyes/Resolucion_1403_de_2007.pdf',
     },
     {
       tema: 'Gestión de inventarios',
       referencia:
         'Decreto 780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. Mayo 6 de 2016.',
       tipo: 'PDF',
-      descarga:
-        '/downloads/Anexo5_CF018_Decreto_780_de_2016_Sector_Salud_y_Protección_Social.pdf',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
     {
-      tema: 'Gestión de inventarios',
+      tema: 'Métodos de evaluación de inventarios',
       referencia:
         'Resolución 2955 de 2007. [Ministerio de la Protección Social]. Por la cual se modifican algunos numerales del Manual de Condiciones Esenciales y Procedimientos del Servicio Farmacéutico, adoptado mediante Resolución 1403 de 2007 y se dictan otras disposiciones. Agosto 27 de 2007.',
       tipo: 'PDF',
-      descarga: '/downloads/Anexo3_CF018_Resolución_2955_de_2007.pdf',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/RESOLUCI%C3%93N%202955%20DE%202007.pdf',
     },
     {
       tema: 'Métodos de evaluación de inventarios',

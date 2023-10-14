@@ -8,7 +8,7 @@
       h1 Registros contables de inventario
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") Las compras de productos o mercancías en una empresa se registran por medio de un débito a la cuenta Inventarios. Cuando la empresa realiza una venta, se registran dos asientos contables:
+        p(data-aos="fade-up") Las compras de productos o mercancías en una empresa se registran por medio de un débito a la cuenta inventarios. Cuando la empresa realiza una venta, se registran dos asientos contables:
         ul.lista-ul.my-4
           li.d-flex(data-aos="fade-up")
             i.fas.fa-atom(style="color:#7E5EE3;")

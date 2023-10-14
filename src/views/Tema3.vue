@@ -60,7 +60,7 @@
               div #[strong Insumos de aprovisionamiento:] abastecerse de los materiales necesarios cuando tiene que realizar las actividades de fabricación o comercialización.
             li.d-flex(data-aos="fade-up")
               i.fas.fa-atom(style="color:#7E5EE3;")
-              div #[strong Activos fijos:] bienes y derechos que no son convertidos en efectivo por una empresa en el año y permanecen en ella durante más de un año (muebles, inmuebles, etc.)
+              div #[strong Activos fijos:] bienes y derechos que no son convertidos en efectivo por una empresa en el año y permanecen en ella durante más de un año (muebles, inmuebles, etc.).
     .row.mt-5
       .col-lg-6.col-md-4.mb-4.mb-md-0(style="place-self:center;")
         p.mb-0(data-aos="fade-up") Los bienes de una empresa deben ser ordenados y descritos de acuerdo con las características de cada artículo o producto, también llamados mercancías; deben estar agrupados por su valor o similitud, porque forman parte del patrimonio o capital de la empresa. Todo inventario depende directamente de dos procesos que deben estar previamente bien establecidos en la empresa:
@@ -136,7 +136,7 @@
         p.mb-0 #[b Figura 3]. Modelo de inventario
       figure.mt-4
         img.m-auto(src="@/assets/curso/tema3/12.svg" data-aos="zoom-in-up" alt="Imagen que representa el modelo de inventario, la cual contiene la siguiente información: Existencias Pedido óptimo = Q Emisión de pedido Plazo de aprovisionamiento Recepción física de pedido Punto de pedido Stock de seguridad Tiempo" style="max-width:1050px;")
-        figcaption.fw-normal.text-center.mt-3.p-4(style="background-color:#E8E8E8;") Nota. Tomada de #[a(target="_blank" style="color:#7E5EE3;" href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186Página 25") https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186Página 25]
+        figcaption.fw-normal.text-center.mt-3.p-4(style="background-color:#E8E8E8;") Nota. Tomada de #[a(target="_blank" style="color:#7E5EE3;" href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186") https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186] Página 25
     p.mt-5(data-aos="fade-up") Para el logro de los objetivos de la empresa, es importante priorizar el inventario de materias primas y el inventario final o de producto terminado; por esta razón, la estructura del inventario es directamente proporcional al tamaño de la empresa, debido a que el proceso de verificación de la cantidad de productos se especificará en el marco de la cadena de adquisición y suministro del negocio.
     .row.mt-5
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
@@ -146,7 +146,7 @@
             .lista-ol--cuadro__vineta(style="background-color:#7E5EE3;")
               span 1
             |
-            p.mb-0 #[strong Primer inventario:] existencias básicas que mantienen el equilibrio entre las entradas y salidas, el debe y el haber.
+            p.mb-0 #[strong Primer inventario:] existencias básicas que mantienen el equilibrio entre las entradas y salidas, el deber y el haber.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta(style="background-color:#7E5EE3;")
               span 2
@@ -460,27 +460,27 @@
       h2#t_3_6 3.6 Sistemas de reposición de inventarios
     p(data-aos="fade-up") Se refiere al reabastecimiento de productos dentro del almacén posterior a su recepción, y tiene como objetivo evitar el desabastecimiento completo de cualquier producto.
     p.mt-5.fw-bold.text-center(data-aos="fade-up") Para ello, existen tres estrategias de reposición de inventarios:
-    .row.mt-5(@mouseover="mostrarIndicador2 = false")
-      .col-xl.mb-4.mb-xl-0
+    .row.justify-content-center.mt-5(@mouseover="mostrarIndicador2 = false")
+      .col-xxl.col-lg-6.col-sm-10.mb-4.mb-xxl-0
         .h-100
           figure.cont_image1
             img.m-auto(src="@/assets/curso/tema3/29.png" alt="Imagen decorativa" style="max-width:450px;")
-            .cont_image1__description.p-3(style="background-color:#81D4FA;")
+            .cont_image1__description.p-3.mx-auto(style="background-color:#81D4FA;")
               h5 Reposición por demanda
               p.mb-0 Esta se da cuando seleccionan todos los productos que serán despachados durante el día. Normalmente, se utiliza cuando la demanda de pedidos es por tiempos específicos, por ejemplo, las canastillas de medicamentos y dispositivos médicos que se preparan para pacientes de cirugía.
-      .col-xl.mb-4.mb-xl-0
+      .col-xxl.col-lg-6.col-sm-10.mb-4.mb-xxl-0
         .h-100
           figure.cont_image1
             .indicador--click(v-if="mostrarIndicador2")
             img.m-auto(src="@/assets/curso/tema3/30.png" alt="Imagen decorativa" style="max-width:450px;")
-            .cont_image1__description.p-3(style="background-color:#81D4FA;")
+            .cont_image1__description.p-3.mx-auto(style="background-color:#81D4FA;")
               h5 Reposición por fractura del #[em stock]
               p.mb-0 Esta se da cuando el inventario llega al nivel mínimo de existencias definido con antelación.
-      .col-xl.mb-4.mb-xl-0
+      .col-xxl.col-lg-6.col-sm-10.mb-4.mb-xxl-0
         .h-100
           figure.cont_image1
             img.m-auto(src="@/assets/curso/tema3/31.png" alt="Imagen decorativa" style="max-width:450px;")
-            .cont_image1__description.p-3(style="background-color:#81D4FA;")
+            .cont_image1__description.p-3.mx-auto(style="background-color:#81D4FA;")
               h5 Reposición de #[em stock “Top Off”]
               p.mb-0 Esta reposición consiste en abastecer las estanterías vacías al mismo tiempo que se están dispensando o distribuyendo los productos.
 
@@ -516,21 +516,33 @@ export default {
   width: 100%
   height: auto
   transition: all 0.5s ease-in
-  top: 80%
+  top: 81%
 .cont_image1:hover .cont_image1__description
   top: auto
-@media screen and (max-width: 1200px)
+@media screen and (max-width: $bp-max-xl)
   .cont_image1__description
-    top: 90%
-@media screen and (max-width: 992px)
+    width: 450px
+    left: 30px
+@media screen and (max-width: $bp-max-lg)
   .cont_image1__description
-    top: 87%
-@media screen and (max-width: 770px)
+    top: 80%
+    width: 420px
+    left: 0
+@media screen and (max-width: $bp-max-md)
+  .cont_image1__description
+    top: 85%
+    width: 450px
+    left: 33px
+@media screen and (max-width: $bp-max-sm)
   .cont_image1__description
     top: 83%
-@media screen and (max-width: 480px)
+    width: 406px
+    left: 0
+@media screen and (max-width: $bp-max-xs)
   .cont_image1__description
-    top: 75%
+    top: 78%
+    width: 390px
+    left: 0
 .cont_3_1, .cont_3_1 *
   position: relative
 .cont_3_1:before
