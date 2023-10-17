@@ -234,13 +234,22 @@ export default {
   ],
   referencias: [
     {
+      referencia: 'Arenal. (2020). Planificación y organización. Autor ',
+    },
+    {
       referencia:
-        'Vega, D. (2019). 3 herramientas que facilitan el control de inventarios. ClickBalance.',
+        'Cruz Fernández, A. (2007). UF0476: Gestión de inventarios. IC Editorial. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59186',
+    },
+    {
+      referencia:
+        'Vega, D. (2019). 3 herramientas que facilitan el control de inventarios. ClickBalance. ',
       link:
         'https://clickbalance.com/blog/nichos/3-herramientas-que-facilitan-el-control-de-inventarios',
     },
     {
-      referencia: 'Tecnipesa. (s. f.). Trazabilidad farmacéutica.',
+      referencia: 'Tecnipesa. (s. f.). Trazabilidad farmacéutica. ',
       link:
         'https://www.tecnipesa.com/soluciones/trazabilidad-producto/trazabilidad-farmaceutica',
     },
